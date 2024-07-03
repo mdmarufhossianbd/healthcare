@@ -1,6 +1,6 @@
 const Faq = () => {
     return (
-        <div className='max-w-7xl mx-auto pb-40'>
+        <div className='max-w-7xl mx-auto pb-32'>
             <div>
                 <button className="rounded-3xl border px-6 py-2 bg-white w-[140px]">Faq</button>
                 <h2 className="py-5 text-4xl font-semibold">Frequntly Asked Question</h2>
