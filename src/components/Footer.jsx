@@ -1,9 +1,10 @@
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import logoLight from '../../public/Media/logo light.png';
 
 const Footer = () => {
     return (
-        <div className='bg-[#020043]'>            
-            <footer className="footer py-28 max-w-7xl mx-auto text-white">                
+        <div className='bg-[#020043]'>
+            <footer className="footer py-28 max-w-7xl mx-auto text-white">
                 <aside className='text-[#FFFFF5]'>
                     <img src={logoLight} alt="" />
                     <br />
@@ -29,10 +30,14 @@ const Footer = () => {
                     <a className="link link-hover">Patient Portal</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">Legal</h6>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
-                    <a className="link link-hover">Cookie policy</a>
+                    <h6 className='text-[#FFFFF5] text-lg'>Legal</h6>
+                    <div className='flex gap-5 text-2xl mb-10'>
+                        <FaFacebook />
+                        <FaInstagram />
+                        <FaLinkedin />
+                        <FaYoutube />
+                    </div>
+                    <p>@docplus 2024</p>
                 </nav>
             </footer>
         </div>
